@@ -15,6 +15,11 @@ print(f"Department:{department}")
 # length of string
 print(len(name))
 
+
+# Greetings 
+user_name = input("Please Enter your name:")
+print("Good Afternoon",user_name)
+
 # count function
 str = "python"
 print(str.count("t"))
@@ -23,9 +28,7 @@ print(str.count("t"))
 captilized_str = str.capitalize()
 print(captilized_str)
 
-# Greetings 
-user_name = input("Please Enter your name:")
-print("Good Afternoon",user_name)
+
 
 
 
