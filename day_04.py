@@ -30,12 +30,16 @@ alphabets = ["A" , "B" , "C"]
 combine = numbers + alphabets
 print(combine)
 
+# Toss
 random_user_choice = random.randint(0 , 1)
 if random_user_choice == 0:
   print("Head")
 else:
   print("Tails")
 
+# Choosing a random in list
+students = ["tufail" , "muzammil" , "zaheer" , "Ali"]
+print(random.choice(students))
 
 
 
