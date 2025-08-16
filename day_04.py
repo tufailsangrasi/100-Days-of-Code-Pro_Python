@@ -1,8 +1,5 @@
 # list -> collection of different datatypes
-# Nested list
-# Iterate list 
-# Choosing a random number from list
-# add another member in list using append method
+import random
 
 fruits = ["Apple" , "Banana" , "Mango" , "Peach" , 1]
 #print(fruits[0])
@@ -32,6 +29,13 @@ numbers = [1 , 2 , 3]
 alphabets = ["A" , "B" , "C"]
 combine = numbers + alphabets
 print(combine)
+
+random_user_choice = random.randint(0 , 1)
+if random_user_choice == 0:
+  print("Head")
+else:
+  print("Tails")
+
 
 
 
