@@ -1,4 +1,4 @@
-# Polymorphism in Python
+# Polymorphism 
 # 1.Compile time polymorphism -> Overloading (same name , different parameters)
 # 2.Runtime Polymorphism -> Overriden
 class university:
