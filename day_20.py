@@ -3,3 +3,5 @@
 class student:
   name = ""
   roll_no = ""
+  def __init__(self):
+    pass
